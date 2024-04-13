@@ -1,0 +1,597 @@
+/* Le cote responsive du site web (mobile) */
+
+@media screen and (max-width: 500px){
+    
+  
+    body{
+        max-width: 100%;
+        
+    }
+    
+    section{
+        height: fit-content;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    
+    /**********B**********/
+    
+    .btns {
+        display: none;
+    
+    }
+    
+    .btns .btn{
+        height: 15px;
+        width: 60%;
+        background: var(--secondary-color);
+        border-radius: 20px;
+        color: var(--main-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    /**********C**********/
+    
+    .card {
+    display: none;
+    }
+    
+    .carousel{
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    
+    }
+    
+    .contact{
+        width: 60%;
+        height: 4%;
+       
+            }
+    
+    
+    .container{
+        height:100vh;
+        
+    }
+    
+    .content{
+        
+      
+        min-height: 60%;
+     
+    }
+    
+    
+    
+    
+    /**********L**********/
+    
+    .landing-page{
+        width: 100%;
+        margin: 0;
+         height: fit-content;
+    }
+    
+    
+    .left-arrow{
+        margin-right: 25px;
+    }
+    
+    .left-part{
+        width: fit-content;
+        width: 100%;
+        height:95vh;
+        border-radius:0 ;
+        justify-content: center;
+        align-items: center;
+        border:none;
+    
+    }
+    
+
+    
+    .left-part div{
+        padding: 2px;
+        margin: 0;
+    }
+    
+    .left-part h1{
+        font-size: 50px;
+        color: var(--third-color)
+       
+    }
+    
+    .left-part nav {
+        display: none;
+    
+    }
+    
+    .left-part p{
+        text-align: center;
+        width: 99%;
+        margin: auto;
+    }
+    
+    .Login{
+        display: none;
+    }
+
+    /**********N**********/
+    .mobilnav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--third-color);
+       
+    }
+
+    .mobilnav i {
+        color: var(--main-color);
+        font-size: 15pt;
+      
+    }
+    
+    /**********R**********/
+    
+    .right-part{
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        border: none;
+        
+    }
+    
+    
+    /**********S**********/
+    
+    .slider{
+        width: 300%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        gap:30px;
+        align-items: center;
+        transition: all 0.3s;
+        overflow: hidden;
+       
+    }
+    
+     .square1, .square2, .square3{
+        position: relative;
+        width: 70%;
+        height: 50%;
+      
+    
+    }
+    
+
+    
+    .square1 p,.square2 p,.square3 p{
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+   
+    /****************************************Join Us****************************************/
+
+    /**********B**********/
+
+    button[type="submit"] {
+      width:40%;
+        margin: 20px;
+        font-size: 15pt;
+        
+    }
+
+
+    /**********F**********/
+
+    .form-group {
+    width:90%;
+    margin: 20px;
+
+    }
+
+    .fullname{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+
+    /**********H**********/
+    .Hiring{
+        width: 99%;
+    }
+    .Hiring h1{
+        font-size: 40px;
+        text-align: start;
+        }
+    .Hiring p{
+    width:90%;
+    font-size: 15pt;
+    align-items: center;
+    }
+
+    
+    /****************************************FOOTER****************************************/
+footer{
+    height: fit-content;
+}
+    /**********M**********/
+    .mn{
+        display: flex;  
+        flex-direction: column;
+    }
+    .right form input,
+.right form textarea {
+    width: 200px;
+    font-size: 15px;
+    background: #151515;
+    padding-left: 10px;
+    border: 2px solid #222222;
+}
+
+
+        /****************************************about us****************************************/
+        .About-Us{
+            height:fit-content;
+        
+        }  
+        
+        
+        .About-Us p{
+    
+            margin:20px auto;
+            width:89%;
+            font-size: 18px;
+        }
+
+        .achievement {
+            width: 99%;
+            flex-direction: column;
+            height: 100vh;
+            text-align: start;
+           
+        }
+     
+        .achievement  div{
+            flex-direction:row;
+            width: 100%;
+            height: 30px;
+        }
+        
+        .achievement i{
+            font-size:20px;
+            margin: 5px;
+
+         
+        }
+        
+        .date{
+            margin: 5px;
+        }
+        
+        .line2{
+        display: none;
+        }
+
+        .ach .line3{
+        height: 5px;
+        width: 40px;
+        margin: 1px ;
+        
+        }
+    /****************************************Area of practice****************************************/
+    .Area{
+        background:var(--main-color);
+    
+        max-width:99% ;
+    }
+
+    .AreaN{
+        background:var(--main-color);
+    }
+
+    .Area h1 {
+
+        font-size: 30px;
+    }
+
+   
+    .main, .main1{
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom:0;
+        align-items: center;
+        width: 100%;
+    }
+
+    .crd {
+
+     width:80%; 
+     height: 200px;
+     border-radius: 10px;
+     margin: 20px 0;
+    }
+    .crd-body {
+        height: 170px;
+    }
+   
+   
+   /****************************************Lawyers****************************************/
+
+
+    .containe{
+        width: 90%;
+
+    }
+    .Lawyers h1{
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+
+    }
+    .Lawyers h3{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .bio{
+        width: 100%;
+    }
+    .bio p{
+
+        color: var(--secondary-color);
+        margin: 2px;
+        font-weight: 300;
+        overflow: hidden;
+        padding: 5px;
+    
+    }
+    .bio h2{
+        margin: 0 30px ;  
+        padding: 10px;
+    }
+    /* BODY & LAWYERS */
+    
+
+
+    .lawyer{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin:0;
+        width: 100%;
+        
+        
+    }
+    /*********************************    L1   ******************************/
+    .l1{
+        height: 100%;
+    
+    }
+    .l1 .bio{
+        height: 95%;
+        width: 99%;
+        text-align: center;
+    }
+
+    .l1 .photo{
+        height: 350px;
+        width:  250px; 
+        margin: 30px;
+ 
+        
+    }
+    /*safia*/
+    .l1 .photo .imbBx, .imbBx img{
+        width: 350px;  
+ 
+    }
+    .l1 .photo .content{
+        bottom:0;
+        width:100%;
+        backdrop-filter: blur(5px); 
+
+    }
+
+
+
+
+
+    /***************************************  L2    **************************************/
+
+    .l2{
+        margin: 30px;
+        height: 100%; 
+        flex-direction: column-reverse;
+    }
+    .l2 .bio{
+        height: 95%;
+        width: 99%;
+        text-align: center;
+   
+    }
+
+    .l2 .photo{
+        height: 350px;
+        width:  250px; 
+        margin: 30px;
+        padding-left: 0;
+        border-radius: 10px;
+       
+    }
+    .l2 .photo .imbBx, .imbBx img{
+     
+        width: 100%;
+        height: 330px;
+    }
+    .l2 .photo .content{
+      
+        bottom:0;
+        backdrop-filter: blur(5px); 
+        border-radius: 0;
+        width:  250px; 
+    }
+    .l2 .photo:hover .content{
+        bottom: 0;
+        transition-delay: 3ms;
+    }
+
+    .l2 .bio h2{
+        text-align: center;
+        width: 100%;
+    }
+    .l2 .bio p{
+        text-align: center;
+    }
+
+
+    /*****************************  L3  *************************/
+    .l3{
+        margin: 30px;
+        height: 100%; 
+        flex-direction: column-reverse;
+    }
+    .l3 .bio{
+        height: 95%;
+        width: 98%;
+        text-align: center;
+    }
+
+
+    .l3 .photo{
+        height: 400px;
+        width:  250px; 
+        margin: 30px;
+        padding-left: 0;
+        border-radius: 10px;
+    }
+
+    .l3 .photo .content{
+        position: absolute;  
+        bottom:0;
+        backdrop-filter: blur(5px); 
+        border-radius: 0 ;
+
+    }
+
+    .l3 .bio h2{
+        padding-right: 2px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*********************************  L4  ***********************/
+    .l4{
+        height: 100%; 
+    }
+    .l4 .bio{
+        height: 95%;
+        width: 99%;
+        text-align: center;
+        margin-left: 0;
+    
+    }
+    .l4 .photo{
+        position: relative;
+        height: 100%;
+        height: 400px;
+        width:  250px; 
+     margin:30px
+    }
+    .l4 .photo .imbBx, .imbBx img{
+        height: 350px;
+        width:  270px;
+        border-radius: 10px;
+    }
+    .l4 .photo .content{
+        position: absolute;  
+        bottom:0;
+        backdrop-filter: blur(5px);
+        border-radius:0;
+     
+    }
+ 
+    .l4 .bio h2{
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /****************************************Lawyers****************************************/
+    /* .Articles
+    {display: ;
+    } */
+
+    
+    
+
+
+
+
+
+
+    .sidebar {
+        position: fixed;
+        top: -100%; 
+        right: 0;
+        width: 100%;
+        height: 100%;
+        transition: top 0.3s ease;
+        z-index: 2;
+
+        
+    }
+
+    .sidebar.show {
+        top: 0; 
+    }
+    
+    .show .links li
+    {
+        animation: forwards anim 600ms;
+    
+    }
+
+    @keyframes anim
+    {
+        0%
+        {
+        translate:0 80px ;
+        opacity: 0;
+        }
+        100%
+        {
+        translate:0 0 ;
+        opacity: 1;
+        }
+
+    
+    }
+}
